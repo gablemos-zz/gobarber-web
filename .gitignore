@@ -3,9 +3,6 @@
 node_modules/
 build/
 
-tmp/*.jpg
-tmp/*.png
-tmp/*.tif
-tmp/*.jpeg
-tmp/*.gif
+tmp/*
+!tmp/!.gitkeep
 

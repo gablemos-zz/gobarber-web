@@ -2,9 +2,10 @@
 .vscode/
 node_modules/
 build/
-tmp/
-temp/
 
-tmp/*
-!tmp/!.gitkeep
+tmp/*.jpg
+tmp/*.png
+tmp/*.tif
+tmp/*.jpeg
+tmp/*.gif
 

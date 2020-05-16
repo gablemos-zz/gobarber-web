@@ -4,7 +4,7 @@ import { container } from 'tsyringe';
 import CreateUserService from '@modules/users/services/CreateUserService';
 import UpdateUserAvatarService from '@modules/users/services/UpdateUserAvatarService';
 
-export default class UsersController {
+class UsersController {
   public async create(request: Request, response: Response): Promise<Response> {
     const { name, email, password } = request.body;
 
@@ -34,3 +34,5 @@ export default class UsersController {
     return response.json(user);
   }
 }
+
+export default UsersController;
